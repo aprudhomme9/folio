@@ -65,6 +65,7 @@ class Projects extends Component{
 					<Modal.Content >
 				<h4>JQuery Blackjack</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
+				<h5>Built using JavaScript and jQuery</h5>
 				<a href='#'>Github</a>
 					</Modal.Content>
 				</Modal>
@@ -73,6 +74,7 @@ class Projects extends Component{
 					<Modal.Content >
 				<h4>Brewr: A Brewery Checkin App</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
+				<h5>Built using MongoDB/Express/Node and EJS with Bootstrap</h5>
 				<a href='#'>Github</a>
 					</Modal.Content>
 				</Modal>
@@ -81,6 +83,7 @@ class Projects extends Component{
 					<Modal.Content >
 				<h4>Memestream: Social Meme'ing</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
+				<h5>Built using MongoDB/Express/Node and React.js</h5>
 				<a href='#'>Github</a>
 					</Modal.Content>
 				</Modal>
@@ -89,6 +92,7 @@ class Projects extends Component{
 					<Modal.Content >
 				<h4>Watch with Friends</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
+				<h5>Built using MongoDB/Express/Node and React.js</h5>
 				<a href='#'>Github</a>
 					</Modal.Content>
 				</Modal>
