@@ -66,7 +66,7 @@ class Projects extends Component{
 				<h4>JQuery Blackjack</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
 				<h5>Built using JavaScript and jQuery</h5>
-				<a href='#'>Github</a>
+				<a href='https://github.com/aprudhomme9/project1'>Github</a>
 					</Modal.Content>
 				</Modal>
 				<Modal open={this.state.open === 'brewr'}>
@@ -75,7 +75,7 @@ class Projects extends Component{
 				<h4>Brewr: A Brewery Checkin App</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
 				<h5>Built using MongoDB/Express/Node and EJS with Bootstrap</h5>
-				<a href='#'>Github</a>
+				<a href='https://github.com/aprudhomme9/project-2-brewery-app'>Github</a>
 					</Modal.Content>
 				</Modal>
 				<Modal open={this.state.open === 'memestream'}>
@@ -84,7 +84,7 @@ class Projects extends Component{
 				<h4>Memestream: Social Meme'ing</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
 				<h5>Built using MongoDB/Express/Node and React.js</h5>
-				<a href='#'>Github</a>
+				<a href='https://github.com/aprudhomme9/meme-generator-react'>Github</a>
 					</Modal.Content>
 				</Modal>
 				<Modal open={this.state.open === 'wwf'}>
@@ -93,7 +93,7 @@ class Projects extends Component{
 				<h4>Watch with Friends</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
 				<h5>Built using MongoDB/Express/Node and React.js</h5>
-				<a href='#'>Github</a>
+				<a href='https://github.com/aprudhomme9/capstone-frontend'>Github</a>
 					</Modal.Content>
 				</Modal>
 
