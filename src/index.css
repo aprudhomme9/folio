@@ -6,9 +6,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./polka.jpg')
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.heading, .description {
+	/*text-align: left;*/
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 12px;
+	padding: 20px;
+	/*opacity: 0.7;*/
+}
+
+.segment {
+	opacity: 0.7;
+	text-align: center;
+
+}
+.stepGroup {
+	text-align: left;
+	margin: 25px;
+}
+
+.footer {
+	margin-top: 50px;
+	margin-bottom: 0;
+	/*align-items: baseline;*/
+	align-self: baseline;
+	vertical-align: bottom;
+	position: relative;
+}
+
+#bio {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 12px;
+	text-align: left;
+
+}
+
+#header, #footer {
+	opacity: 0.95;
+}
+
+.project {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    color: white;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.image {
+	display: flex;
+	flex-direction:;
+	text-align: center;
+	align-self: center;
+	vertical-align: middle;
+	/*position: absolute;*/
+	/*margin-left: 75px;*/
 }
