@@ -57,6 +57,7 @@ code {
 	text-align: center;
 	align-content: center;
 	align-items: center;
+	min-height: 400px;
 }
 
 .close {
@@ -71,10 +72,24 @@ code {
 
 .image {
 	display: flex;
-	flex-direction:;
+	flex-direction: row;
 	text-align: center;
 	align-self: center;
 	vertical-align: middle;
 	/*position: absolute;*/
 	/*margin-left: 75px;*/
+}
+
+.projectImage {
+	height: 250px;
+	width: 300px;
+	text-align: center;
+	display: flex;
+	margin-left: 150px;
+	cursor: pointer;
+
+}
+
+p, h4, h3, h5, h1, h2 {
+	opacity: 1;
 }

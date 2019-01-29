@@ -32,14 +32,14 @@ class Projects extends Component{
 							
 							<Segment className='project' inline>
 							<h1>JQuery Blackjack</h1>
-							<Image center position='relative'textAlign='center'fluid cursor='pointer'onClick={this.toggleModal} name='blackjack' bordered size='large' src='https://i.imgur.com/8H7ccKk.png'/>
+							<Image className='projectImage'center position='relative'textAlign='center'fluid cursor='pointer'onClick={this.toggleModal} name='blackjack' bordered size='large' src='https://i.imgur.com/8H7ccKk.png'/>
 							</Segment>
 						</Grid.Column>
 						<Grid.Column>
 							
 							<Segment className='project'>
 							<h1>Brewr - A Brewery Locator App</h1>
-							<Image fluid name='brewr' onClick={this.toggleModal}bordered size='large' src='https://i.imgur.com/cmaozvG.png'/>
+							<Image className='projectImage'fluid name='brewr' onClick={this.toggleModal}bordered size='large' src='https://i.imgur.com/cmaozvG.png'/>
 							</Segment>
 						</Grid.Column>
 					</Grid.Row>
@@ -48,20 +48,20 @@ class Projects extends Component{
 							
 							<Segment className='project'>
 							<h1>Memestream - A Social Meme App</h1>
-							<Image fluid name= 'memestream' onClick={this.toggleModal}bordered size='large' src='https://i.imgur.com/Q1nNNHd.png'/>
+							<Image className='projectImage'fluid name= 'memestream' onClick={this.toggleModal}bordered size='large' src='https://i.imgur.com/Q1nNNHd.png'/>
 							</Segment>
 						</Grid.Column>
 						<Grid.Column>
 							
 							<Segment className='project'>
 							<h1>Watch With Friends - A Social Movie App</h1>
-							<Image fluid name='wwf' onClick={this.toggleModal}bordered size='large' src='https://i.imgur.com/FseOkQk.png'/>
+							<Image className='projectImage'fluid name='wwf' onClick={this.toggleModal}bordered size='large' src='https://i.imgur.com/FseOkQk.png'/>
 							</Segment>
 						</Grid.Column>
 					</Grid.Row>
 				</Grid>
 				<Modal open={this.state.open === 'blackjack'}>
-					<Image src='https://i.imgur.com/8H7ccKk.png'/>
+					<Image className='modalImage' src='https://i.imgur.com/8H7ccKk.png'/>
 					<Modal.Content >
 				<h4>JQuery Blackjack</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
@@ -70,7 +70,7 @@ class Projects extends Component{
 					</Modal.Content>
 				</Modal>
 				<Modal open={this.state.open === 'brewr'}>
-					<Image src='https://i.imgur.com/cmaozvG.png'/>
+					<Image className='modalImage' src='https://i.imgur.com/cmaozvG.png'/>
 					<Modal.Content >
 				<h4>Brewr: A Brewery Checkin App</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
@@ -79,7 +79,7 @@ class Projects extends Component{
 					</Modal.Content>
 				</Modal>
 				<Modal open={this.state.open === 'memestream'}>
-					<Image src='https://i.imgur.com/Q1nNNHd.png'/>
+					<Image className='modalImage' src='https://i.imgur.com/Q1nNNHd.png'/>
 					<Modal.Content >
 				<h4>Memestream: Social Meme'ing</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
@@ -88,7 +88,7 @@ class Projects extends Component{
 					</Modal.Content>
 				</Modal>
 				<Modal open={this.state.open === 'wwf'}>
-					<Image src='https://i.imgur.com/FseOkQk.png'/>
+					<Image className='modalImage' src='https://i.imgur.com/FseOkQk.png'/>
 					<Modal.Content >
 				<h4>Watch with Friends</h4>
 				<p className='close'onClick={this.closeModal}>+</p>
