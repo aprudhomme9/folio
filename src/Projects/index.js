@@ -67,6 +67,9 @@ class Projects extends Component{
 				<p className='close'onClick={this.closeModal}>+</p>
 				<h5>Built using JavaScript and jQuery</h5>
 				<a href='https://github.com/aprudhomme9/project1'>Github</a>
+				<br/>
+				<br/>
+				<a href='https://aprudhomme9.github.io/project1/'>Link to site</a>
 					</Modal.Content>
 				</Modal>
 				<Modal open={this.state.open === 'brewr'}>
@@ -76,7 +79,11 @@ class Projects extends Component{
 				<p className='close'onClick={this.closeModal}>+</p>
 				<h5>Built using MongoDB/Express/Node and EJS with Bootstrap</h5>
 				<a href='https://github.com/aprudhomme9/project-2-brewery-app'>Github</a>
-					</Modal.Content>
+				<br/>
+				<br/>
+				<a href='https://the-brewr-app.herokuapp.com/'>Link to site</a>
+				</Modal.Content>
+
 				</Modal>
 				<Modal open={this.state.open === 'memestream'}>
 					<Image className='modalImage' src='https://i.imgur.com/Q1nNNHd.png'/>
