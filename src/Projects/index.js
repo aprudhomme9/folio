@@ -101,6 +101,7 @@ class Projects extends Component{
 				<p className='close'onClick={this.closeModal}>+</p>
 				<h5>Built using MongoDB/Express/Node and React.js</h5>
 				<a href='https://github.com/aprudhomme9/capstone-frontend'>Github</a>
+				<a href='https://watch-with-friends-react.herokuapp.com/#!'>Link to site</a>
 					</Modal.Content>
 				</Modal>
 
