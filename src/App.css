@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-image: url('./bricks.jpg');
+  /*background-image: url('./bricks.jpg');*/
   background-position: all;
+  background-color: #f2f2f2;
 }
 
 .App-logo {
