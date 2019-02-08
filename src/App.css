@@ -1,8 +1,9 @@
 .App {
   text-align: center;
-  /*background-image: url('./bricks.jpg');*/
-  background-position: all;
-  background-color: #f2f2f2;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/originals/3a/65/7b/3a657b1203903a0eecd8f09e1718b248.png');
+  /*background-color: #f2f2f2;*/
 }
 
 .App-logo {

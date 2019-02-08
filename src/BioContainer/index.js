@@ -12,7 +12,7 @@ class BioContainer extends Component{
 					<br></br>
 					<br></br>
 					<div className='heading'>
-					<Segment >
+					<Segment className='first' >
 					<div className='heading'>
 					<Header  as='h1'>About Me</Header>
 					
